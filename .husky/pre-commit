@@ -1,1 +1,2 @@
+# Run command below to lint and formatting
 npx lint-staged && npm run lint

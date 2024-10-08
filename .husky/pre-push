@@ -1,1 +1,2 @@
+# Run the commands below to ensure code quality before pushing changes.
 npm run build
