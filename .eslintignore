@@ -1,0 +1,16 @@
+.next/*
+*.css
+dist/
+esm/*
+public/*
+tests/*
+scripts/*
+*.config.mjs
+node_modules/
+coverage/
+.next
+build/
+.env
+*.log
+*.md
+# .eslintignore
