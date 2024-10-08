@@ -39,3 +39,13 @@ This is a **Next.js starter template** setup to help you quickly bootstrap your 
 ## Usage:
 
 This repository is set up as a **template**, allowing you to easily clone or generate new projects based on it.
+
+## Customize Your README
+
+After setting up your project, you can replace this README with a project-specific one. A **README template** is provided in this repository to help you quickly document your new project.
+
+1. Navigate to `README_TEMPLATE.md` in the root directory.
+2. Copy the contents of `README_TEMPLATE.md`.
+3. Replace this README with your own by pasting and customizing the template to fit your project.
+
+> **Note:** Add all relevant project information such as the project name, description, features, and instructions.
