@@ -1,2 +1,2 @@
 # Run command below to lint and formatting
-npx lint-staged && npm run lint
+npx lint-staged && npm run lint && npm run test
