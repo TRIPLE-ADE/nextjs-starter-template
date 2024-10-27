@@ -19,7 +19,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,json,scss,md}": [
+    "*.{js,jsx,ts,tsx,json,scss}": [
       "eslint --fix --no-ignore",
       "prettier --write"
     ]

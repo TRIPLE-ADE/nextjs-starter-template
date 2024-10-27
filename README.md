@@ -49,3 +49,39 @@ After setting up your project, you can replace this README with a project-specif
 3. Replace this README with your own by pasting and customizing the template to fit your project.
 
 > **Note:** Add all relevant project information such as the project name, description, features, and instructions.
+
+## Project Structure
+
+The project follows a **feature-first** folder structure (or modify based on your actual structure):
+
+```bash
+project-name/
+│
+├── .husky/              # Husky configuration for pre-commit hooks
+├── app/                # App directory for routing and pages
+│   ├── api/            # API routes
+│   ├── components/      # Reusable components
+│   ├── layout.tsx       # Layout component
+│   ├── page.tsx         # Main entry point for the app
+│   ├── styles/          # Global styles (e.g., Tailwind)
+│   ├── middleware.ts    # Middleware for authentication
+│   ├── hooks/           # Custom React hooks
+│   └── utils/           # Utility functions
+├── .eslintignore         # ESLint ignore rules configuration
+├── .eslintrc.json        # ESLint configuration
+├── .prettierignore       # Prettier ignore rules configuration
+├── .prettierrc.json      # Prettier configuration
+├── commitlint.config.mjs # Commitlint configuration
+├── components.json # shadcn components json
+├── jest.config.js      # jest configuration
+├── jest.setup.js       # jest setup configuration
+├── next-env.d.ts        # TypeScript environment definitions
+├── next.config.mjs       # Next.js configuration
+├── package-lock.json       # Lockfile for npm dependencies
+├── package.json            # Project metadata and npm scripts
+├── postcss.config.mjs     # Tailwind Postcss configuration
+├── README_TEMPLATE.md     # Project specific documentation
+├── README.md            # Project documentation
+├── tailwind.config.ts    # Tailwind configuration
+└── tsconfig.json        # TypeScript configuration
+```
